@@ -174,3 +174,72 @@ nav .menu{
     font-weight: 900;
     background-image: linear-gradient(#F7E93F, #FB09B4, #9100F8);
 }
+
+ /* service and grid section */
+
+#grid{
+    background-color: #230E3D;
+    padding: 120px 200px;
+}
+#grid .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#grid .container .grid-info-1{
+    grid-row: span 2;
+    padding: 40px 40px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    text-align: start;
+    border-radius: 40px;
+    background-color: #351165;
+}
+#grid .container .grid-info-2{
+    grid-column: span 2;
+    padding: 40px 40px;
+    margin-bottom: 20px;
+    text-align: start;
+    border-radius: 40px;
+    background-color: #351165;
+
+}
+#grid .container .grid-info-3{
+    grid-column: span 2;
+    margin-bottom: 20px;
+    padding: 40px 40px;
+    background-color:#351165;
+    border-radius: 40px;
+
+}
+ #grid .container .grid-info-4{
+    grid-column: span 2;
+    margin-right: 20px;
+    padding: 40px 40px;
+    background-color: #351165;
+    border-radius: 40px;
+ }
+ #grid .container .grid-info-5{
+    grid-column: span 1;
+    padding: 40px 40px;
+    background-color: #351165;
+    border-radius: 40px;
+ }
+.grid-h1{
+    font-size: 48px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.grid-h1-2{
+    font-size: 24px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 16px auto;
+}
+.grid-p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff87;
+}
