@@ -125,3 +125,52 @@ nav .menu{
     cursor: pointer;
     padding: 2px 0;
 }
+
+/* about section related style */
+#About{
+    width: 100%;
+}
+#About .about-container{
+    text-align: center;
+    background-color: #1A0B2E;
+    padding: 50px 200px 120px;
+}
+#About .about-container .about-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 160px;
+}
+
+.about-h1-tag{
+    gap: 80px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #00FF88;
+}
+.about-h1-tag-2{
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+.about-p-tag{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+    gap: 80px;
+}
+.section-heading h1{
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: auto;
+}
+.section-heading p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    gap: 80px;
+}
+.h1-2{
+    font-weight: 900;
+    background-image: linear-gradient(#F7E93F, #FB09B4, #9100F8);
+}
