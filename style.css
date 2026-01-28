@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* navbar related style */
+nav{
+    background-color: #1A0B2E;
+    padding: 16px 200px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.hamburger{
+    display: none;
+}
+.h1-1{
+    color: #FFFFFF;
+    font-weight: 900;
+}
+nav .menu{
+    display: flex;
+    gap: 30px;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+.menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-image: linear-gradient(#F7E93F, #FB09B4, #9100F8);
+    cursor: pointer;
+}
+
+/* banner related style */
+
+.banner-title{
+    margin-top: 40px;
+    width: 270px;
+    height: auto;
+    position: relative;
+    right: -500px;
+    top: 100px;
+}
+
+.banner-container{
+    max-width: 1600px;
+    height: 600px;
+    background-image: url(B13-A02-TechWave/assets/hero-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner-container .circle-setting{
+    width: 270px;
+    height: auto;
+    position: relative;
+    right: -500px;
+    top: 100px;
+}
+.banner-container .mic{
+    width: 100px;
+    height: auto;
+    position: relative;
+    right: -310px;
+    bottom: -40px;
+}
+.banner-container span{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    background-color: #00FF88;
+    border-radius: 20%;
+    display: inline-block;
+    position: absolute;
+    right: 515px;
+    bottom: 380px;
+}
+.banner-details{
+    width: 350px;
+    height: 350px;
+}
+
+.h1-3{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 900;
+}
+.p-1{
+    margin-top: 10px;
+    color: #ffffffa5;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-3{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #00FF88;
+    border: #00FF88;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #00FF88;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+.btn-2{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 8px;
+    padding: 12 20;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-image: linear-gradient(#F7E93F, #FB09B4, #9100F8);
+    cursor: pointer;
+    padding: 2px 0;
+}
