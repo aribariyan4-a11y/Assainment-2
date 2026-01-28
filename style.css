@@ -259,6 +259,7 @@ nav .menu{
     margin-right: 20px;
 }
 .podcast-h1{
+    
     font-size: 24px;
     font-weight: 900;
     color: #FFFFFF;
@@ -281,7 +282,7 @@ nav .menu{
     color: #FFFFFF;
 }
 .test{
-
+    background-color: #1A0B2E;
     padding: 48.5px 40px 192.5px 64px;
 }
 .test-2{
@@ -290,7 +291,7 @@ nav .menu{
 .Host{
     display: flex;
     border-radius:20px;
-    background-color: #533C72;
+    background-color: #553c76;
    
 }
 .host-h1{
